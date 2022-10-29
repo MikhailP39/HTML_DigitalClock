@@ -7,6 +7,8 @@ body{
     height: 100vh;
     justify-content: center;
     background: url("https://wallpaperaccess.com/full/4768866.jpg");
+    background-size: cover;
+    overflow: hidden;
 }
 
 h2{
