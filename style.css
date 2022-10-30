@@ -9,6 +9,7 @@ body{
     background: url("https://wallpaperaccess.com/full/4768866.jpg");
     background-size: cover;
     overflow: hidden;
+    transition: background 0.5s;
 }
 
 h2{
@@ -19,16 +20,16 @@ h2{
     color: #ffff;
 }
 
-.clock{
+.clock, .calendar{
     display: flex;
 }
 
-.clock div{
+.clock div, .calendar div{
     margin: 5px;
     position: relative;
 }
 
-.clock span{
+.clock span, .calendar span{
     width: 100px;
     height: 80px;
     color: #ffff;
@@ -37,11 +38,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 42px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
-.clock .text{
+.clock .text, .calendar .text{
     height: 30px;
     font-size: 10px;
     text-transform: uppercase;
